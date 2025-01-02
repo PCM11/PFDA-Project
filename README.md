@@ -9,7 +9,7 @@
 - **Contents:** Describes the files and their purposes.
 - **Requirements:** Lists dependencies required to run the notebook.
 - **Running the Jupyter Notebook:** Provides instructions for running the notebook using both Anaconda and Visual Studio Code.
--**Usage Instructions:** Explains what the notebook does and how to interact with it.
+- **Usage Instructions:** Explains what the notebook does and how to interact with it.
 
 ## Overview
 
