@@ -1,26 +1,31 @@
 # Roches Point Weather
 **by: Phumi Tshidi**
 
-<img src="https://i.pinimg.com/736x/06/58/37/0658377a91a1d68a9bb3cc2572175a7b--wind-sculptures-canopies.jpg" width="400" height="250">
+<img src="https://i.pinimg.com/736x/06/58/37/0658377a91a1d68a9bb3cc2572175a7b--wind-sculptures-canopies.jpg" width="500" height="300">
 
 # Key Sections
 
 - **Overview:** Summary
-- **Contents:** Describes the files and their purposes.
+- **Features:** Describes the files and their purposes.
 - **Requirements:** Lists dependencies required to run the notebook.
 - **Running the Jupyter Notebook:** Provides instructions for running the notebook using both Anaconda and Visual Studio Code.
-- **Usage Instructions:** Explains what the notebook does and how to interact with it.
 
 ## Overview
 
-This repository contains a Jupyter notebook that performs data analysis on wind speed data using Python and the pandas library. The notebook demonstrates how to clean, process, and analyze wind speed data, providing insights and visualizations based on the dataset.
+This repository contains a Jupyter notebook that performs data analysis on wind speed dataset using Python-based data tools. The notebook demonstrates how to clean, process, and analyze wind speed data, providing insights and visualizations based on the dataset.
 
-## Project Contents
+## Features
 
-- **wind_speed_analysis.ipynb**: A Jupyter notebook that contains the steps for analyzing wind speed data. The notebook includes data loading, cleaning, processing, and visualization using pandas.
-- **data/**: A directory that contains the raw wind speed data (if included), or placeholder for dataset files.
-- **requirements.txt**: A text file that lists all the Python dependencies required to run the notebook, including `pandas`, `matplotlib`, `numpy`, and others.
-  
+**Imports:** Required libraries for analysis
+
+**Data Collection:** Import weather data from CSV file.
+
+**Data Cleaning:** Handle missing values, normalize data, and prepare it for analysis.
+
+**Statistical Analysis:** Compute averages, seasonal variations, and anomaly detection using `pandas and numpy`.
+
+**Data Visualization:** Generate charts such as line plots and bar graphs to analyze trends using `matplotlib` or `seaborn`.
+
 ## Requirements
 
 Before running the notebook, ensure you have the following installed:
@@ -36,7 +41,7 @@ You can install all required dependencies by running:
 
 There are two main ways to run the notebook: using **Anaconda** or **Visual Studio Code**.
 
-### 1. Running with Anaconda
+### Running with Anaconda
 
 If you're using Anaconda, follow these steps:
 
@@ -64,13 +69,7 @@ If you're using Anaconda, follow these steps:
     conda activate rochesp_weather
     ```
 
-5. **Install dependencies** from `requirements.txt`:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-6. **Launch Jupyter Notebook**:
+5. **Launch Jupyter Notebook**:
 
     ```bash
     jupyter notebook
@@ -78,7 +77,7 @@ If you're using Anaconda, follow these steps:
 
     This will open Jupyter in your web browser. Navigate to `rochesp_weather.ipynb` and start working with the notebook.
 
-### 2. Running with Visual Studio Code
+###  Running with Visual Studio Code
 
 If you prefer using Visual Studio Code:
 
@@ -102,18 +101,8 @@ If you prefer using Visual Studio Code:
 
 4. **Install the Python extension** (if not already installed) in Visual Studio Code.
 
-5. **Install the dependencies** by opening a terminal in Visual Studio Code and running:
+5. **Install the Jupyter extension** in Visual Studio Code.
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+6. **Open the Jupyter notebook** (`rochesp_weather.ipynb`) in Visual Studio Code, and the notebook interface will be available to run cells interactively.
 
-6. **Install the Jupyter extension** in Visual Studio Code.
-
-7. **Open the Jupyter notebook** (`rochesp_weather.ipynb`) in Visual Studio Code, and the notebook interface will be available to run cells interactively.
-
-## How to Use
-
-- **Load the dataset**: The notebook includes steps for loading wind speed data.
-- **Data cleaning**: The notebook performs necessary cleaning operations, such as handling missing values or removing irrelevant columns.
 - **Data analysis and visualization**: It processes the data using `pandas, numpy` and generates visualizations (using `matplotlib` or `seaborn`) to provide insights into wind speed trends.
