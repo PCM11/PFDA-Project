@@ -5,11 +5,11 @@
 
 # Key Sections
 
-- **Overview:** Summary
+- **Overview:** Introduction
 - **Features:** Describes the files and their purposes.
 - **Requirements:** Lists dependencies required to run the notebook.
 - **Running the Jupyter Notebook:** Provides instructions for running the notebook using both Anaconda and Visual Studio Code.
-- **Conclusion:** 
+- **Conclusion:** Summary
 
 ## Overview
 
